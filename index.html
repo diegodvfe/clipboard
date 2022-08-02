@@ -4,11 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Simple Tailwind Starter</title>
   </head>
   <body>
-    <h1 class="text-4xl mb-4">Welcome</h1>
-    <p>Start building your Tailwind project</p>
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="section-container mb-40 px-10 pt-16 ">
+        <img src="images/logo.svg" alt="" class="mx-auto my-16">
+        <h3 class=" mb-8 text-4xl font-bold text-dark md:text-5xl">
+          A history of everthing you copy
+        </h3>
+
+        <p class="max-w-3xl mx-auto mb-10 text-2xl text-gray-500">
+          Clipboard allows you to tack and organize everthig you coopy.
+          Instantlly access your clipboard on all your devices.
+        </p>
+
+        <!-- button container -->
+        <div class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4">
+          <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-blue-700 duration-200 hover:opacity-80">
+            Download for IOS
+          </a>
+          <a href="#" class="p-4 px-8 rounded-full shadow-lg bg-green-800 duration-200 text-white hover:opacity-80">
+            Download for Mackbook
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- snippets -->
+
+    <section id="snippets">
+      <div class="section-container my-20 px-10">
+        <h3 class="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
+          Keep track of your snippets
+        </h3>
+        <p class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-gray-600">
+          Clipboard instally stores any items you copy in the cloud, 
+          meaning you can access your snippets inmediately on all your devices. Our Mac and iOS app will help you to organize everthing.
+        </p>
+      </div>
+    </section>
+
+    <!-- Feauteres -->
+
+    <section id="features">
+      <div class="section-container my-20 px-10" >
+        <div class=" relative flex flex-col md:flex-row md:space-x-32">
+          <!-- Image -->
+            <div class="md:w-1/2">
+              <img src='images/image-computer.png' alt="computer" class="md:absolute top-0 right-[50%]">
+            </div>
+
+          <!-- Item container-->
+          <div id="items" class="flex flex-col  mb-24 space-y-12 text-xl md:w-1/2 
+          md:mb-60 md:text-right md:pl-16 ">
+            <!-- item 1 -->
+            <div>
+            <h5 class="mb-2 text-2xl font-bold ">
+             Quick Search
+            </h5>
+            <p class="max-w-md ">
+              Easily search your snippets by content, category, web adress aplication, and more
+             </p>
+            </div>
+
+            <div>
+              <h5 class="mb-2 text-2xl font-bold ">
+               iCloud
+              </h5>
+              <p class="max-w-md ">
+               We can costum your actaull cloud the 24 hours, and build something you need.
+               </p>
+              </div>
+              <div>
+                <h5 class="mb-2 text-2xl font-bold ">
+                 Quick Search
+                </h5>
+                <p class="max-w-md ">
+                  Easily search your snippets by content, category, web adress aplication, and more
+                 </p>
+                </div>
+                <div>
+                  <h5 class="mb-2 text-2xl font-bold ">
+                   Quick Search
+                  </h5>
+                  <p class="max-w-md ">
+                    Easily search your snippets by content, category, web adress aplication, and more
+                   </p>
+                  </div>
+            
+          </div>
+        </div>
+    </section>
   </body>
 </html>
